@@ -1,9 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Mulish:wght@400;500;600;700;800;900&display=swap');
 
+/* common css  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #FF5400;
+    --secondary-color: #5A5A5D;
+    --title-color: #131318;
+}
+
 body {
     font-family: 'Mulish', sans-serif;
 }
 
-h1 {
-    color: red;
+.container {
+    max-width: calc(100% - 18%);
+    margin: 0 auto;
 }
+
+
+/* header sections css  */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.7rem;
+    font-size: 1.125rem;
+}
+
+.nav-list li {
+    list-style: none;
+}
+
+.nav-list a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.nav-list a:active {
+    color: var(--primary-color);
+}
+
+.nav-list a:hover {
+    color: var(--primary-color);
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu i{
+    width: 24px;
+    height: 24px;
+}
+
+

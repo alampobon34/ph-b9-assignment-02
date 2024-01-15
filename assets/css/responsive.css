@@ -1,0 +1,19 @@
+/* mobile size -> 600px */
+/* desktop/laptop size -> above 992px  */
+
+/* header section  */
+
+@media screen and (max-width: 600px) {
+    .header-container {
+        flex-direction: column;
+    }
+
+    .link-container {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+}
