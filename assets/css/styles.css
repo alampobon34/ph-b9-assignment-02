@@ -394,3 +394,54 @@ p {
 p {
     color: #fff;
 }
+
+
+/* footer section css  */
+
+.footer {
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    padding: 3.2rem 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.9rem;
+
+}
+
+.footer-content img {
+    width: 150px;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer-social a {
+    height: 24px;
+    width: 24px;
+    color: var(--title-color)
+}
+
+
+.copy-right {
+    font-family: 'Inter', sans-serif;
+    color: var(--secondary-color);
+    font-size: 1rem;
+    font-weight: 300;
+}
