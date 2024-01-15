@@ -1,9 +1,16 @@
 /* mobile size -> 600px */
 /* desktop/laptop size -> above 992px  */
 
-/* header section  */
+
 
 @media screen and (max-width: 600px) {
+
+    /* .container {
+        width: calc(100% - 40px);
+        margin: 0 auto;
+    } */
+
+    /* header section  */
     .header-container {
         flex-direction: column;
     }
@@ -15,5 +22,37 @@
     .mobile-menu {
         display: block;
     }
+
+    /* hero section  */
+
+    .hero-container {
+        gap: 2rem;
+    }
+    .hero-title {
+        font-size: 1.3rem;
+        font-weight: 800;
+    }
+
+    .hero-desc {
+        font-size: 0.9rem;
+    }
+
+    .hero-input {
+        flex-direction: column;
+        gap: 1.5rem;
+        width: calc(100% - 40px);
+    }
+
+    .hero-input .text-input, .select {
+        width: 100%;
+    }
+
+    .hero-input .text-input input, .select select {
+        width: 100%; 
+    }
+    .hero-btn, .hero-btn button {
+        width: 100%;
+    }
+
 
 }
