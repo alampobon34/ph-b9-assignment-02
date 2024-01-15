@@ -11,6 +11,16 @@
         font-size: 1.25rem;
     }
 
+    .desc {
+        font-size: 0.8rem;
+        font-weight: 400;
+        color: var(--secondary-color);
+    }
+
+    .section-gap {
+        margin-top: 48px;
+    }
+
     /* header section  */
     .header-container {
         flex-direction: column;
@@ -29,6 +39,7 @@
     .hero-container {
         gap: 2rem;
     }
+
     .hero-title {
         font-size: 1.3rem;
         font-weight: 800;
@@ -44,20 +55,24 @@
         width: calc(100% - 40px);
     }
 
-    .hero-input .text-input, .select {
+    .hero-input .text-input,
+    .select {
         width: 100%;
     }
 
-    .hero-input .text-input input, .select select {
-        width: 100%; 
+    .hero-input .text-input input,
+    .select select {
+        width: 100%;
     }
-    .hero-btn, .hero-btn button {
+
+    .hero-btn,
+    .hero-btn button {
         width: 100%;
     }
 
 
     /* tour section css  */
-    .tour-container  {
+    .tour-container {
         margin-top: 1.5rem;
         flex-direction: column;
         gap: 1.5rem;
@@ -67,14 +82,23 @@
         gap: 1rem;
     }
 
-    .tour-content, .tour-image {
+    .tour-content,
+    .tour-image {
         width: 100%;
     }
 
-    .tour-content p, ul, li {
-        font-size: 0.8rem;
+    /* choose us css  */
+    .choose-container {
+        gap: 0.8rem;
     }
 
+    .choose-cards-content {
+        gap: 0.8rem;
+    }
+    .choose-row1 {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
 
 
 
