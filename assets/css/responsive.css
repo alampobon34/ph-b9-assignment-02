@@ -5,10 +5,11 @@
 
 @media screen and (max-width: 600px) {
 
-    /* .container {
-        width: calc(100% - 40px);
-        margin: 0 auto;
-    } */
+    /* common css  */
+
+    .title {
+        font-size: 1.25rem;
+    }
 
     /* header section  */
     .header-container {
@@ -53,6 +54,28 @@
     .hero-btn, .hero-btn button {
         width: 100%;
     }
+
+
+    /* tour section css  */
+    .tour-container  {
+        margin-top: 1.5rem;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .tour-content {
+        gap: 1rem;
+    }
+
+    .tour-content, .tour-image {
+        width: 100%;
+    }
+
+    .tour-content p, ul, li {
+        font-size: 0.8rem;
+    }
+
+
 
 
 }
