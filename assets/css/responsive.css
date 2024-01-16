@@ -71,6 +71,51 @@
     }
 
 
+    /* destination section css  */
+
+    .destination-container {
+        gap: 1rem;
+    }
+
+    .destination-grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+
+    .grid-image-1 {
+        grid-column: 1/span 1;
+    }
+
+    .grid-image-2 {
+        grid-column: 1/span 1;
+    }
+
+    .grid-image-3 {
+        grid-column: 1/span 1;
+    }
+
+    .grid-image-4 {
+        grid-column: 1/span 1;
+    }
+
+    .grid-image-5 {
+        grid-column: 1/span 1;
+    }
+
+    .grid-image-6 {
+        grid-column: 1/span 1;
+    }
+
+    .grid-image-7 {
+        grid-column: 1/span 1;
+    }
+
+    .grid-title {
+        font-size: 1.25rem;
+    }
+
     /* tour section css  */
     .tour-container {
         margin-top: 1.5rem;
@@ -94,7 +139,11 @@
         gap: 1rem;
     }
 
-    .deals-icons{
+    .deals-card {
+        padding: 1.6rem;
+    }
+
+    .deals-icons {
         flex-direction: column;
         align-items: start;
         gap: 1.25rem;
@@ -118,6 +167,7 @@
     .choose-cards-content {
         gap: 0.8rem;
     }
+
     .choose-row1 {
         flex-direction: column;
         gap: 0.8rem;
@@ -130,7 +180,8 @@
         flex-direction: column;
     }
 
-    .video-content, .video-play {
+    .video-content,
+    .video-play {
         width: 100%;
     }
 
@@ -143,7 +194,8 @@
         gap: 1rem;
     }
 
-    .newsletter-content, .newsletter-image {
+    .newsletter-content,
+    .newsletter-image {
         width: 100%;
     }
 
