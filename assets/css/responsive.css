@@ -186,6 +186,25 @@
     }
 
 
+    /* customer review section css  */
+
+    .reveiew-card-title {
+        font-size: 1.25rem;
+    }
+
+    .review-desc {
+        font-size: 0.8rem;
+    }
+
+    .review-user {
+        font-size: 0.8rem;
+    }
+
+    .review-client {
+        font-size: 0.7rem;
+    }
+
+
 
     /* newsletter section css */
 

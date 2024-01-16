@@ -537,6 +537,95 @@ li {
 }
 
 
+/* customer review section css  */
+
+.review {
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.reciver-container {
+    padding: 3rem 0rem;
+}
+
+.review-card {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+    padding: 2.5rem 0px;
+}
+
+.reveiew-card-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.review-user-img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.review-ratings i {
+    color: var(--primary-color)
+}
+
+.review-desc {
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
+.review-user {
+    font-size: 1rem;
+}
+
+.review-client {
+    font-size: 0.8rem;
+}
+
+.review-arrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow-btn button{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: #fff;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.arrow-btn button:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.arrow-dots {
+    display: flex;
+    gap: 0.5rem;
+}
+
+
+.arrow-dots .dot {
+    background-color: var(--secondary-color);
+    width: 1rem;
+    height: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.arrow-dots .actve-dot {
+    width: 2rem;
+    background-color: var(--primary-color);
+}
+
+
 
 
 /* newsletter section css  */
