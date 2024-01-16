@@ -18,7 +18,7 @@
     }
 
     .section-gap {
-        margin-top: 48px;
+        margin-top: 1.5rem;
     }
 
     /* header section  */
@@ -87,6 +87,29 @@
         width: 100%;
     }
 
+
+    /* deals and discounts section  */
+
+    .deals-container {
+        gap: 1rem;
+    }
+
+    .deals-icons{
+        flex-direction: column;
+        align-items: start;
+        gap: 1.25rem;
+
+    }
+
+    .deals-combine-icons {
+        gap: 1.25rem;
+    }
+
+
+    .deals-packages-btn {
+        display: none;
+    }
+
     /* choose us css  */
     .choose-container {
         gap: 0.8rem;
@@ -98,6 +121,17 @@
     .choose-row1 {
         flex-direction: column;
         gap: 0.8rem;
+    }
+
+
+    /* video section css  */
+
+    .video-container {
+        flex-direction: column;
+    }
+
+    .video-content, .video-play {
+        width: 100%;
     }
 
 
