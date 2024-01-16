@@ -561,10 +561,13 @@ li {
 
 .video-play h3 {
     position: absolute;
-    top: 40%;
-    left: 30%;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
+    font-size: 1.5rem;
+    width: 100%;
 }
 
 

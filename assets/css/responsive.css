@@ -214,6 +214,11 @@
     }
 
 
+    .video-play h3 {
+        font-size: 1rem;
+    }
+
+
     /* customer review section css  */
 
     .reveiew-card-title {
