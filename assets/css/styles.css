@@ -115,9 +115,11 @@ p {
     display: none;
 }
 
+.mobile-menu i,
 .mobile-menu i {
-    width: 24px;
-    height: 24px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 
@@ -206,6 +208,12 @@ p {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
+    color: var(--secondary-color);
+}
+
+.tour-list li {
+    color: var(--secondary-color);
+    font-weight: 400;
 }
 
 .tour-list {
@@ -407,9 +415,8 @@ p {
 
 
 .deals-image {
-    max-height: 500px;
+    /* max-height: 500px; */
     border-radius: 16px;
-    background: url('../Images/Group\ 39.png'), lightgray 50% / cover no-repeat;
     /* margin-bottom: 1.5rem; */
     display: flex;
     align-items: center;
@@ -424,11 +431,20 @@ p {
 .deals-image-left {
     justify-content: start;
     padding: 3.5rem;
+    background: url('../Images/Group\ 40.png'), lightgray 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 .deals-image-right {
     justify-content: end;
     padding: 3.5rem;
+    background: url('../Images/Group\ 39.png'), lightgray 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .deals-card {
@@ -525,6 +541,8 @@ p {
 li {
     color: var(--title-color);
     font-weight: 700;
+    padding-left: 1.25rem;
+    font-size: 1rem;
 }
 
 
@@ -590,6 +608,7 @@ li {
     font-size: 1rem;
     color: var(--secondary-color);
 }
+
 .review-user {
     font-size: 1rem;
 }
@@ -604,7 +623,7 @@ li {
     align-items: center;
 }
 
-.arrow-btn button{
+.arrow-btn button {
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
     background-color: #fff;

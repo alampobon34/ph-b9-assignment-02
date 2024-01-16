@@ -11,7 +11,7 @@
         min-height: 3rem;
         /* width: 8rem; */
     }
-    
+
 
     .title {
         font-size: 1.25rem;
@@ -132,7 +132,6 @@
 
     /* tour section css  */
     .tour-container {
-        margin-top: 1.5rem;
         flex-direction: column;
         gap: 1.5rem;
     }
@@ -151,6 +150,14 @@
 
     .deals-container {
         gap: 1rem;
+    }
+
+    .deals-image-left {
+        padding: 8rem 1.5rem 1.5rem 1.5rem;
+    }
+
+    .deals-image-right {
+        padding: 8rem 1.5rem 1.5rem 1.5rem;
     }
 
     .deals-card {
@@ -199,6 +206,13 @@
         width: 100%;
     }
 
+    .video-content ul,
+    li {
+        color: var(--title-color);
+        font-weight: 700;
+        font-size: 0.8rem;
+    }
+
 
     /* customer review section css  */
 
@@ -230,6 +244,17 @@
     .newsletter-content,
     .newsletter-image {
         width: 100%;
+    }
+
+
+    /* footer section css  */
+
+    .footer-container {
+        padding: 1.5rem 0;
+    }
+
+    .footer-content {
+        gap: 0.5rem;
     }
 
 
