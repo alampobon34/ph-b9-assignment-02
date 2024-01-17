@@ -17,6 +17,7 @@ body {
     font-family: 'Mulish', sans-serif;
 }
 
+
 h1,
 h2,
 h3 {
@@ -231,7 +232,7 @@ p {
 
 .tour-image img {
     width: 100%;
-    height: 100%;
+    max-height: 550px;
 }
 
 
@@ -548,18 +549,22 @@ li {
 
 .video-play {
     width: 50%;
-    height: 100%;
     position: relative;
-    border-radius: 1rem;
 }
 
-.video-play video {
-    width: 100%;
+.video-content-video {
     height: 100%;
+    width: 100%;
     border-radius: 1rem;
 }
 
-.video-play h3 {
+video[poster] {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.video-title {
     position: absolute;
     left: 50%;
     top: 45%;
@@ -570,14 +575,13 @@ li {
     width: 100%;
 }
 
-
 /* customer review section css  */
 
 .review {
     background: rgba(251, 181, 99, 0.05);
 }
 
-.reciver-container {
+.review-container {
     padding: 3rem 0rem;
 }
 
@@ -736,7 +740,7 @@ li {
 }
 
 .newsletter-discount {
-    width: 215px;
+    width: 50%;
     height: 80px;
     border-radius: 0.7rem;
     background-color: var(--primary-color);
@@ -746,8 +750,8 @@ li {
     align-items: center;
     position: absolute;
     bottom: 12%;
-    right: 3%;
-    transform: rotate(-19deg);
+    right: 4%;
+    transform: rotate(-19deg) translate(-5%, -5%);
 }
 
 .newsletter-discount h4,

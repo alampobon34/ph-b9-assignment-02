@@ -95,7 +95,7 @@
     }
 
     .destination-grid img {
-        max-height: 250px;
+        height: 200px;
     }
 
     .grid-image-1 {
@@ -213,8 +213,12 @@
         font-size: 0.8rem;
     }
 
+    .video-play {
+        height: 200px;
+    }
 
-    .video-play h3 {
+
+    .video-title {
         font-size: 1rem;
     }
 
